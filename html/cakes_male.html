@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title> Мой кондитер </title>
 		<link rel="shortcut icon" href="../slide/images/icon/pirojn.png" type="image/png">
-		
+		<link rel="stylesheet" href="../css/style.css">
 		<style>
 			h1 {
 				text-align: center;
@@ -15,6 +15,17 @@
 				font-size: 60px;
 				color: #704214;
 				position: relative;
+			}
+			
+			h2 {
+				text-align: center;
+				font-family: Calibri;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 60px;
+				color: #704214;
+				position: relative;
+				margin-top: 100px
 			}
 
 			.popup {width: 150px; height: 200px; cursor:pointer;}
@@ -48,7 +59,7 @@
 				word-wrap: break-word;
 				lang: ru;
 				text-align: center;
-				font-size: 14pt;
+				font-size: 15pt;
 				font-family: Calibri;
 				font-weight: bold;
 			}
@@ -75,6 +86,16 @@
 				font-size: 20px;
 				color: #704214;
 				position: relative;
+				}
+				h2 {
+				text-align: center;
+				font-family: Calibri;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 20px;
+				color: #704214;
+				position: relative;
+				margin-top: 150px
 				}				
 			}
 			
@@ -165,7 +186,7 @@
 			</div>
 			<div class="popup" onclick="showDetails(this)" onfocusout="hideDetails(this)">
 			<img tabindex="1" src="../slide/images/cakes/male/26.jpg">
-			<div class="details">Торт 26<br>С Днём Рождения 25.<br>Мешок с деньгами</div>
+			<div class="details">Торт 26<br>Мешок с деньгами<br>С Днём Рождения 25</div>
 			</div>
 			<div class="popup" onclick="showDetails(this)" onfocusout="hideDetails(this)">
 			<img tabindex="1" src="../slide/images/cakes/male/28.jpg">
@@ -262,8 +283,23 @@
 			
 		</div>
 
-		<object style="position: relative; margin-top:100px" data="contacts.html" width="100%" height="350px"></object>
-
+		<!-- <object style="position: relative; margin-top:100px" data="contacts.html" width="100%" height="350px"></object> -->
+		<h2>Свяжитесь с нами...</h2>
+		<div class="contacts">
+			<nav>
+				<ul>
+					<li class="mobile"><a title="telephone" href="tel:+380667971516"><img src="../slide/images/icon/telephone.png"></a></li>
+					<!-- ДЛЯ ПРИЛОЖЕНИЯ VIBER НА МОБИЛЬНЫХ -->
+					<li class="mobile"><a title="viber" href="viber://add?number=380667971516"><img src="../slide/images/icon/viber.png"></a></li>
+					<!-- ДЛЯ ПРИЛОЖЕНИЯ VIBER НА ПК -->
+					<li class="desktop"><a title="viber" href="viber://chat?number=+380667971516"><img src="../slide/images/icon/viber.png"></a></li>
+					<li><a title="Telegram" href="tg://resolve?domain=nikname"><img src="../slide/images/icon/telegram.png"></a></li>
+					<li><a title="WhatsApp" href="whatsapp://send?phone=380667971516"><img src="../slide/images/icon/whatsapp.png"></a></li>
+					<li><a title="facebook" href="https://www.facebook.com/profile.php?id=100013371406707" target="_blank"><img src="../slide/images/icon/facebook.png"></a></li>
+				</ul>
+			</nav>
+		</div>
 		<script src="../js/onclick.js"></script>
+		<script src="../js/device.js"></script>
 	</body>
 </html>
