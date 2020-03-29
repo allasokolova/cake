@@ -1,11 +1,12 @@
 // let imageServer = "https://picsum.photos/200/200/?";
 // let imageFolder = '../slide/images/cakes/';
+let imageFolder = 'https://allasokolova.github.io/cake/slide/images/cakes/male/';
 let postsCount = 40;         // число картикок
 let posts = [];
 var str = "Торт"
 
 function initPosts() {
-    for (let i = postsCount; i > 0; i--) { 
+    for (let i = 1; i < postsCount; i++) { 
 		//posts.push(new Post("Название поста " + (i+1), imageFolder + i + '.jpg'));
 		posts.push(new Post(str + " " + (i), imageFolder + i + '.jpg'));
     }
