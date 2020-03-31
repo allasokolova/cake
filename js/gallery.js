@@ -1,6 +1,6 @@
 // let imageServer = "https://picsum.photos/200/200/?";
-// let imageFolder = '../slide/images/cakes/';
-let imageFolder = 'https://allasokolova.github.io/cake/slide/images/cakes/male/';
+// let imageFolder = '../slide/images/cakes/male/';
+// let imageFolder = 'https://allasokolova.github.io/cake/slide/images/cakes/children/';
 let postsCount = 40;         // число картикок
 let posts = [];
 var str = "Торт"
