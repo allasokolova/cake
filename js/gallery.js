@@ -24,7 +24,7 @@ function addPostsToHTML() {
 		
 
 
-        divContainer.appendChild(postTitle); //добавляет узел в качестве последнего дочернего узла в указанный родительский элемент
+        // divContainer.appendChild(postTitle); //добавляет узел в качестве последнего дочернего узла в указанный родительский элемент
         divContainer.appendChild(newImage);
         gallery.appendChild(divContainer);
     }
