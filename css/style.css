@@ -194,6 +194,7 @@ nav img {display: none;}
 	width: 100%;
 	height: 200px;
 	controls: controls;
+	border-radius:10px;
 	}
 	
 	/* Меню в мобильном */
