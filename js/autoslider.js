@@ -7,7 +7,7 @@ function autoSlider (){
 	timer = setTimeout(function (){
 		var gallery = document.getElementById('gallery');
 		left = left - bias;
-		if (left < -postsCount*bias+30*bias) {
+		if (left < -postsCount*bias+10*bias) {
 			left = 0;
 			clearTimeout(timer);
 		}
