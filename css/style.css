@@ -94,6 +94,7 @@ h1 {
 	width: 70%;
 	height: 520px;
 	controls: controls;
+	border-radius:15px;
 }
 .video iframe {
     position: absolute;
