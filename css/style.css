@@ -48,6 +48,7 @@
 	box-shadow: 2px 3px 5px #6E6E6E;
 	float: left;
 	cursor: pointer;
+	transform: rotate(0deg);
 }
 
 /* МЕНЮ */
