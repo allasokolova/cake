@@ -1,3 +1,36 @@
+/* гирлянда новогодняя */
+#garland {
+position: absolute;
+top: 0;
+left: 0;
+background-image: url('../slide/images/icon/christmas.png');
+height: 36px;
+width: 100%;
+overflow: hidden;
+z-index: 1
+}
+ 
+#nums_1 {
+padding: 100px
+}
+ 
+.garland_1 {
+background-position: 0 0
+}
+ 
+.garland_2 {
+background-position: 0 -36px
+}
+ 
+.garland_3 {
+background-position: 0 -72px
+}
+ 
+.garland_4 {
+background-position: 0 -108px
+}
+
+/* галлерея */
 #gallery{
     display: flex;
     /* ex-wrap: wrap; */
@@ -48,7 +81,6 @@
 	box-shadow: 2px 3px 5px #6E6E6E;
 	float: left;
 	cursor: pointer;
-	transform: rotate(0deg);
 }
 
 /* МЕНЮ */
@@ -168,7 +200,6 @@ nav img {display: none;}
 	box-shadow: 2px 3px 5px #6E6E6E;
 	float: left;
 	cursor: pointer;
-	transform: rotate(0deg);
 	}
 	
 	h1 {
