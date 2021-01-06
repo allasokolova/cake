@@ -211,7 +211,7 @@ nav img {display: none;}
 	color: #704214;
 	position: relative;
 	}
-	
+
 	.contacts img { 
 	position: relative;
 	display: inline-block;
@@ -242,8 +242,8 @@ nav img {display: none;}
 	.menu_mobile {display: inline-block}
 	.menu {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: center;
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 150px;
@@ -252,6 +252,27 @@ nav img {display: none;}
 	width: 150px;
 	height: 150px;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 0px;
+	margin-top: 0%;
+	margin-bottom: -11%;
+	border: 2px solid #704214;
+	box-shadow: 2px 3px 5px #6E6E6E;
+	}
+	.menu > a {
+    padding: 4px;
+}
+	.text {
+	/* текст */
+	line-height: 1;
+	font-variant: normal;
+	font-weight: bold;
+	font: icon;
+	color: #704214;
+	font-family: Calibri;
+	/* рамка текста*/
+	border: 2px solid #704214;
+	width: 80%;
+	box-shadow: 2px 3px 5px #6E6E6E;
+	border-radius: 5px;
 	}
 }
