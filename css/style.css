@@ -207,7 +207,7 @@ nav img {display: none;}
 	font-family: Calibri;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 	color: #704214;
 	position: relative;
 	}
@@ -261,7 +261,7 @@ nav img {display: none;}
 	.menu > a {
     padding: 4px;
 }
-	.text {
+	.menu > a > p {
 	/* текст */
 	line-height: 1;
 	font-variant: normal;
