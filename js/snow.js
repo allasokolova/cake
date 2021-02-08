@@ -1,4 +1,4 @@
-var imgsrc = "slide/images/icon/snow.gif";
+var imgsrc = "slide/images/icon/love.png";
 var height = document.body.scrollHeight;
 if (height<document.body.clientHeight) height = document.body.clientHeight;
 var width = document.body.scrollWidth;
