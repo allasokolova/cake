@@ -210,6 +210,7 @@ nav img {display: none;}
 	font-size: 25px;
 	color: #704214;
 	position: relative;
+	z-index:100
 	}
 
 	.contacts img { 
